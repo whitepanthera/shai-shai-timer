@@ -1,0 +1,18 @@
+<div class="container">
+    <app-knob [units]="Units.SECONDS" [percentage]="secondsToDday" innerColor="#0cc17a" outerColor="#17bd75"></app-knob>
+    <app-knob [units]="Units.MINUTES" [percentage]="minutesToDday"></app-knob>
+    <app-knob [units]="Units.HOURS" [percentage]="hoursToDday"></app-knob>
+    <app-knob [units]="Units.DAYS" [percentage]="daysToDday"></app-knob>
+</div>
+
+<div class="birthday">
+    Shai-Shai soon you will be 13 years olds
+</div>
+
+<!-- <div class="timer">
+    <h4> Count down timer </h4>
+    <span id="days"> {{daysToDday}} </span>Day(s)
+    <span id="hours"> {{hoursToDday}} </span>Hrs 
+    <span id="minutes"> {{minutesToDday}} </span>Min
+    <span id="seconds"> {{secondsToDday}} </span>S
+</div> -->

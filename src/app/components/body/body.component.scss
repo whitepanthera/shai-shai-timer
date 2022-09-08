@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+}
+
+.birthday {
+    font-size: 1rem;
+    color: #c5c5c5;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Oswald', sans-serif;
+
+    animation: shai-shai 4s infinite;
+}
+
+@keyframes shai-shai {
+    0% {
+        font-size: 1rem;
+        color: #c5c5c5;
+    }
+    50% {
+        font-size: 2rem;
+        
+        color: black;
+    }
+    75% {
+        font-size: 1rem;
+        color: #c5c5c5;
+    }
+    100% {
+        font-size: 2rem;
+        color: black;
+    }
+}

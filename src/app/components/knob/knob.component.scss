@@ -1,0 +1,11 @@
+.knob {
+    width: 100%;
+    height: 8rem;
+    // background: orange;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px dashed #1976d2;
+}
